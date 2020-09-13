@@ -1,0 +1,13 @@
+export const viynl = [
+    { name: 'The Miseducation Of Lauryn Hill', artist: 'Lauryn Hill', price: '£13.99', 
+        description: 'Debut Solo album pressed on heavyweight 180 gram black vinyl, double LP', 
+        },
+       
+        { name: 'Forest Hills Drive', artist: 'J.Cole', price: '£10.99', 
+        description: 'text text text text text',},
+        
+        { name: 'Midnight Marauders', artist: 'A Tribe Called Quest', price: '£12.99', 
+        description: 'text text text text text',}
+        ,
+  ];
+  

@@ -1,0 +1,204 @@
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {  
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}            
+   
+/*Store background setup*/
+
+   body {
+      background-color: black;
+      color: white;
+   }
+
+
+/*Rows setup */
+
+         .grid {
+                  display: grid;
+                  grid-template-columns: 400px 400px 400px ;
+                  grid-template-rows: 300 px;
+                  justify-content: space-evenly;  
+                  align-content: center;
+                  column-gap: 40px;
+                 
+
+               }
+               .one {
+                  grid-column: 1;
+                  grid-row: 1;
+                  overflow: scroll;
+                  border-bottom: 1px solid #dbdbdb;
+                  border-right: 1px solid #dbdbdb;
+               }
+               .two { 
+                  grid-column: 2;
+                  grid-row: 1;
+                  border-bottom: 1px solid #dbdbdb;
+                  border-right: 1px solid #dbdbdb;
+               }
+               .three {
+                  grid-column: 3;
+                  grid-row: 1;
+                  border-bottom: 1px solid #dbdbdb;
+                  border-right: 1px solid #dbdbdb;
+               }
+               .four {
+                  grid-column: 1;
+                  grid-row: 2;
+               }
+               .five {
+                  grid-column: 2;
+                  grid-row: 2;
+               }
+               .six {
+                  grid-column: 3;
+                  grid-row: 2;
+               }
+         
+
+        
+
+  
+
+   
+/* Clear floats after the columns 
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+*/
+   
+   
+   
+    .book h2 {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+   .header h1,
+   .header .breadcrumb {
+      text-align: center;
+   }
+
+
+   .addbtn {
+      background-color: rgb(255, 255, 255);
+      float: right;
+      }
+
+   .addbtn
+   .searchBar input [type=submit] {
+         --padding: 8px 10px;
+         --border-radius: 5px;
+         --min-width: 80px;
+         --float: right;
+         --font-size: 1.1em;
+         }
+
+         .searchBar {
+            text-align:center;
+         }
+
+         .searchBar form {
+            width: 100%;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #dbdbdb;
+      }
+          .searchBar input[type=text] {
+              border-radius: 5px;
+              padding: 5px 10px;
+              color: #000;
+                  font-size: 1.3em;
+                  border: 2px solid #9e9e9e;
+                  width: 80%;
+                  margin-right: 5px;
+      }
+
+/*
+
+ .column1 {
+      column-count: 3;
+      column-rule-style: solid;
+      column-width: 150px;
+      column-gap: 7em;
+      column-rule: 1px dotted #ddd;
+      column-span: all; 
+      column-fill: auto;
+      height: 350px;
+      
+   }
+
+
+
+.container {
+   width: 70%;
+   margin: 0 auto;
+   }
+
+
+
+
+.book {
+       border-bottom: 3px solid rgb(255, 255, 255);
+      }
+      
+.book 
+.addbtn
+.searchBar input [type=submit] {
+      --padding: 8px 10px;
+      --border-radius: 5px;
+      --min-width: 80px;
+      --float: right;
+      --font-size: 1.1em;
+      }
+
+.book
+.addbtn {
+background-color: rgb(255, 255, 255);
+float: right;
+}
+
+
+.book {
+   padding-left: 10px;
+}
+
+.searchBar {
+      text-align:center;
+}
+
+
+*{
+   box-sizing: border-box;
+   }
+      .searchBar form {
+         width: 100%;
+         padding-bottom: 20px;
+         border-bottom: 1px solid #dbdbdb;
+   }
+       .searchBar input[type=text] {
+           border-radius: 5px;
+           padding: 5px 10px;
+           color: #000;
+               font-size: 1.3em;
+               border: 2px solid #9e9e9e;
+               width: 80%;
+               margin-right: 5px;
+   }
+
+   .h2 {
+      font-family: "Times New Roman", Times, serif;
+    }
+
+    a {
+      color: LimeGreen;
+    } 
+
+    */
